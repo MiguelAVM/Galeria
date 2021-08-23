@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/login.css">
+    <title>Login</title>
+</head>
+<body background="imagenes/fondo_login.jpg">
+    <div class="login-box">
+        <img class="avatar" src="logos/usuario.png.opdownload" alt="icono.png">
+        <h1>Login Here</h1>
+
+        <form action="/login" method="POST" autocomplete="off">
+            <!--Username-->
+            <label for="Username">Username</label>
+            <input type="text" name="usuario" placeholder="Enter Username">
+
+            <!--Password-->
+            <label for="Password">Password</label>
+            <input type="password" name="password" placeholder="Insert Password">
+
+            <a href="calendario.html">
+                <input type="button" value="Log In" class="Log">
+             </a>
+
+            <a href="#">Lost Your Password?</a>
+            <a href="#">Don't have an account?</a>
+        </form>
+    </div>
+</body>
+</html>

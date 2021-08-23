@@ -1,0 +1,52 @@
+body{
+    background-color: antiquewhite;
+}
+
+header{
+    height:30px;
+    background-color: blueviolet;
+    position: sticky;
+    top:0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+h1{
+    margin-left: 20px;
+    font-size: 30px;
+    display: inline;
+}
+
+ul,li{
+    display: inline;
+    float:right;
+    list-style: none;
+    margin-top: 3px;
+}
+
+li{
+    margin-right: 20px;
+}
+h2{
+    font-size: 30px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+img{
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    width: 300px;
+}
+
+p{
+    margin-top: 20px;
+    width: 500px;
+    text-align: center;
+    margin-left: 400px;
+}
